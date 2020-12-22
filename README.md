@@ -1,0 +1,83 @@
+# System Design for a Data-driven and Explainable Customer Sentiment Monitor
+This project was conducted at the [Machine Learning and Data Analytics Lab](https://www.mad.tf.fau.de/), Friedrich-Alexander-University Erlangen-Nuremberg (FAU) in cooperation with Siemens Healthineers.
+
+## Citation and Contact
+You find a PDF of the paper **tbd**.
+
+If you use our work, please also cite the paper:
+```
+@misc{nguyen_2020,
+      title={System Design for a Data-driven andExplainable Customer SentimentMonitor}, 
+      author={An Nguyen, Stefan Foerstel, Thomas Kittler, Andrey Kurzyukov, Dario Zanco, 
+              Leo Schwinn, Tobias Hipp, Sun Da Jun, Michael Schrapp, Eva Rothgang and  
+              Bjoern Eskofier},
+      year={2020},
+      journal={},
+      note={submitted}
+}
+```
+
+If you would like to get in touch, please contact an.nguyen@fau.de.
+## Abstract
+
+## Getting started
+These instructions will get you a copy of the project up and running on your local machine
+### Clone
+Clone this repo to your local machine 
+### Setup
+Create environment using the requirements.txt
+```
+# using pip
+pip install -r requirements.txt
+
+# using Conda
+conda create --name <env_name> --file requirements.txt
+```
+Activate environment
+```
+conda activate customer_sentiment_monitor 
+```
+Install src in the new environment 
+```
+pip install -e.
+```
+
+Register a notebook kernel
+```
+python -m ipykernel install --user --name=customer_sentiment_monitor
+```
+### Run
+**1.** To set the configurations, use the config.ini. The model_name, late_fusion_flag and feature_type from config.ini can be used to conduct the experiements. The rest of the configurations are exactly the same as in the paper.<br>
+**2.** To run the weekly analysis, use the command below
+```
+python main.py
+```
+After each week the results are saved in data/interim/. If you want to continue training, use cont_week from config.ini.<br>
+**3.** To visualize and evaluate data/results/results.pickle from weekly analysis, notebooks/Visualization.ipynb can be used.
+The pdfs from visualization will be saved in data/visualizations/
+## Contributors
+[An Nguyen](https://www.mad.tf.fau.de/person/an-nguyen/)
+**ADD**
+## Project Organization
+------------
+    ├── data
+    │   ├── results                      <- The result from weekly analysis.
+    │   ├── interim                      <- Intermediate data that has been transformed.
+    │   ├── visualizations               <- The visualization of results from weekly analysis.
+    │   └── raw                          <- The original, immutable data dump.
+    ├── notebooks                        <- Jupyter notebooks. 
+    ├── src                              <- Source code for use in this project.
+        ├── config_parser.py             <- Script to parse configurations into dict.
+        ├── general_helper_functions.py  <- Script with helper functions
+        ├── train_Ensemble.py            <- Script to train XGBoost or RandomForest.
+        ├── train_LSTM.py                <- Script to train LSTM.
+        ├── visualize.py                 <- Script to visualize results from weekly analysis.
+    ├── .gitignore                       <- Files that should be ignored.
+    ├── README.md                        <- The top-level README for developers using this project.
+    ├── config.ini                       <- Configurations.
+    ├── requirement.txt                  <- The requirements file for reproducing the analysis environment, e.g.
+    ├── main.py                          <- Main code.
+    ├── setup.py                         <- makes project pip installable (pip install -e .) so src can be imported
+--------
+
+
