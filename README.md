@@ -16,6 +16,31 @@ If you use our work, please also cite the paper:
       note={submitted}
 }
 ```
+And for the dataset please cite:
+
+```
+@dataset{nguyen_an_2020_4383145,
+  author       = {Nguyen, An and
+                  Foerstel, Stefan and
+                  Kittler, Thomas and
+                  Kurzyukov, Andrey and
+                  Schwinn, Leo and
+                  Zanca, Dario and
+                  Hipp, Tobias and
+                  Da Jun, Sun and
+                  Schrapp, Michael and
+                  Rothgang, Eva and
+                  Eskofier, Bjoern},
+  title        = {{Industrial Benchmark Dataset for Customer 
+                   Escalation Prediction}},
+  month        = dec,
+  year         = 2020,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.4383145},
+  url          = {https://doi.org/10.5281/zenodo.4383145}
+}
+```
+The datasets are publicly available for research purposes. 
 
 If you would like to get in touch, please contact an.nguyen@fau.de.
 ## Abstract
@@ -46,6 +71,10 @@ Register a notebook kernel
 ```
 python -m ipykernel install --user --name=customer_sentiment_monitor
 ```
+
+### Data
+You can download the data via Zenodo [here](https://doi.org/10.5281/zenodo.4383145). Please put the files ```feature_matrix_LSTM.pickl``` and ```feature_matrix.pickle``` into the folder ```data/raw/``` in order to run the provided ```main.py```. 
+
 ### Run
 **1.** To set the configurations, use the config.ini. The model_name, late_fusion_flag and feature_type from config.ini can be used to conduct the experiements. The rest of the configurations are exactly the same as in the paper.<br>
 **2.** To run the weekly analysis, use the command below
