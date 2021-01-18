@@ -6,13 +6,11 @@ You find a PDF of the paper **tbd**.
 
 If you use our work, please also cite the paper:
 ```
-@misc{nguyen2021design,
-    title={System Design for a Data-driven and Explainable Customer Sentiment Monitor},
-    author={An Nguyen and Stefan Foerstel and Thomas Kittler and Andrey Kurzyukov and Leo Schwinn and Dario Zanca and Tobias Hipp and Da Jun Sun and Michael Schrapp and Eva Rothgang and Bjoern Eskofier},
-    year={2021},
-    eprint={2101.04086},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+@article{nguyen2021system,
+  title={System Design for a Data-driven and Explainable Customer Sentiment Monitor},
+  author={Nguyen, An and Foerstel, Stefan and Kittler, Thomas and Kurzyukov, Andrey and Schwinn, Leo and Zanca, Dario and Hipp, Tobias and Sun, Da Jun and Schrapp, Michael and Rothgang, Eva and others},
+  journal={arXiv preprint arXiv:2101.04086},
+  year={2021}
 }
 ```
 And for the dataset please cite:
