@@ -1,5 +1,5 @@
-# System Design for a Data-driven and Explainable Customer Sentiment Monitor
-This project was conducted at the [Machine Learning and Data Analytics Lab](https://www.mad.tf.fau.de/), Friedrich-Alexander-University Erlangen-Nuremberg (FAU) in cooperation with Siemens Healthineers.
+# System Design for a Data-Driven and Explainable Customer Sentiment Monitor Using IoT and Enterprise Data
+This project was conducted at the [Machine Learning and Data Analytics Lab](https://www.mad.tf.fau.de/), Friedrich-Alexander-University Erlangen-Nuremberg (FAU) in cooperation with [Siemens Healthineers](https://www.siemens-healthineers.com/).
 
 ## Citation and Contact
 You find a PDF of the paper [here](https://arxiv.org/pdf/2101.04086.pdf).
