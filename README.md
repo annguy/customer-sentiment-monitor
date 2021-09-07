@@ -85,8 +85,7 @@ After each week the results are saved in data/interim/. If you want to continue 
 **3.** To visualize and evaluate data/results/results.pickle from weekly analysis, notebooks/Visualization.ipynb can be used.
 The pdfs from visualization will be saved in data/visualizations/
 ## Contributors
-[An Nguyen](https://www.mad.tf.fau.de/person/an-nguyen/)
-**ADD**
+[An Nguyen](https://www.mad.tf.fau.de/person/an-nguyen/), [Andrey Kurzyukov](https://github.com/SherlockKA), [Thomas Kittler](https://www.linkedin.com/in/dr-thomas-kittler-a379aa174/), [Stefan Foerstel](https://www.linkedin.com/in/stefan-foerstel/)
 ## Project Organization
 ------------
     ├── data
