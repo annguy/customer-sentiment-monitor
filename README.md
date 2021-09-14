@@ -2,7 +2,7 @@
 This project was conducted at the [Machine Learning and Data Analytics Lab](https://www.mad.tf.fau.de/), Friedrich-Alexander-University Erlangen-Nuremberg (FAU) in cooperation with [Siemens Healthineers](https://www.siemens-healthineers.com/).
 
 ## Citation and Contact
-You find a PDF of the paper [here](https://arxiv.org/pdf/2101.04086.pdf).
+You find the paper [here](https://ieeexplore.ieee.org/document/9520354).
 
 If you use our work, please also cite the paper:
 ```
